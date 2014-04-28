@@ -1,0 +1,13 @@
+// Define quarter here.
+var quarter = function (number) {
+    return number / 4;
+};
+if (quarter() % 3 === 0 ) {
+  console.log("The statement is true");
+} else {
+  console.log("The statement is false");
+}
+quarter(12) % 3 === 0;
+
+//not sure why calling quarter(12) does not return true statement...odd
+//12 /4 = 3, and 3 % 3 should = 0 right?
